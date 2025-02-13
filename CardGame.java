@@ -1,4 +1,7 @@
-package cardGame;
+// Raymond Kuka Mosegi Solia 
+// 02/13/2025
+
+package rayLani cardGame;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -26,7 +29,7 @@ public class CardGame {
 			String[] fields  = input.nextLine().split(",");
 			//	public Card(String cardSuit, String cardName, int cardValue, String cardPicture) {
 			Card newCard = new Card(fields[0], fields[1].trim(),
-					Integer.parseInt(fields[2].trim()), fields[3]);
+					Integer.parseInt(fields[3].trim()), fields[3]);
 			deckOfCards.add(newCard);	
 		}
 
